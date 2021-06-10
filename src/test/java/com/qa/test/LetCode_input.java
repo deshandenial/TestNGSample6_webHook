@@ -40,6 +40,7 @@ public class LetCode_input
 	driver.findElement(By.xpath("//a[@href='/signin']")).click();
 	driver.findElement(By.xpath("//input[@name='email']")).sendKeys(username);
 	driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
+	System.out.println("test done!!!!");
   }
   
 
